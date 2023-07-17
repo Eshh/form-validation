@@ -16,7 +16,7 @@ body {
 
 .container {
   width: 480px;
-  height: 630px;
+  height: 600px;
   background-color: rgb(127, 177, 220);
   display: flex;
   flex-direction: column;
@@ -50,13 +50,14 @@ input {
   transition: all 0.3s ease;
 }
 input:focus {
+  background-color: rgb(127, 177, 220);
   outline: none;
 }
 input::placeholder {
   color: #363131;
 }
 input:invalid {
-  border-bottom: 2px solid #8b1c1c;
+  border-bottom: 2.5px solid #8b1c1c;
 }
 
 button {
